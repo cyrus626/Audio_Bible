@@ -1,0 +1,66 @@
+
+body {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 16px;
+    background-color: dimgrey;
+    color: #696969;
+    padding: 3px;
+}
+#main{
+    padding: 5px 15px 5px 15px;
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;   
+}
+h1{ font-family: Georgia, serif;
+     border-bottom: 3px solid #cc9900;
+     color: #996600;
+     font-size: 30px;
+}
+    #books{
+        width: auto;
+        height: auto;
+        border: double 4px #cc9900;
+        border-radius: 8px 5px 8px 5px;
+        padding: 4px 7px 2px 4px;
+        margin-left: 4px;
+        position: relative;
+        text-indent: 5px;
+        text-align: center;
+       
+    }
+    #conts{
+        border-right: double 3px #cc9900;
+        position: relative;
+        width: 25%;
+        float: left;
+    }
+    #sub{
+        width: 70%;
+        display: inline-grid;
+    }
+    #foot1{
+        text-align: center;
+        border-top: double 5px #cc9900;
+        padding: 10px;
+        margin: 4px 4px 0 0;
+        bottom: 1px;
+    }
+    h3{
+        text-align: center;
+    }
+        h3 a {
+            text-decoration: dotted underline #cc9900;
+            color: #696969;
+        }
+        button{
+            width: 80px;
+            border-radius: 4px 7px 4px 7px;
+        }
+    #ply{
+        position: fixed;
+        background-color: rgba(105, 105, 105, 0.82) ;
+        color: rgba(255, 216, 0, 1.00);
+        z-index: +1;
+        border: double 4px #cc9900;
+        border-radius: 10px 8px 10px 8px;
+    }
